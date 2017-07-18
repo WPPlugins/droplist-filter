@@ -1,0 +1,149 @@
+/**
+ * Droplist Filter
+ *
+ * @author  Joshua Chan
+ * @version 23 August 2008
+ * @filesource
+ */
+
+/* Main activation button */
+.dsFilterButton {
+    width: 18px; 
+    height: 18px;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 3px !important;
+    background-color: transparent !important;
+    background-image: url("search.gif");
+    background-repeat: no-repeat;
+    vertical-align: middle; 
+    display: inline-block;
+}
+
+/* Overall searchbox container */
+.dsOuterBox {
+    vertical-align: middle;
+    display: none; 
+    background-repeat: repeat; 
+    height: 26px; 
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-image: url("background.gif");
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+.dsInnerBox {
+    vertical-align: top;
+    display: block; 
+    height: 26px; 
+    white-space: nowrap; 
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    overflow: hidden;
+}
+
+
+/* Proprietary OSX search textbox in Safari */
+.dsFilterTextboxSafari {
+    width: 120px;
+    margin-top: 2px !important;
+    margin-left: 8px;
+    font-size: 20pt !important;
+    float: left;
+}
+
+/* DIV tag holding the side graphic for faking the OSX searchbox */
+.dsFilterTextLeft {
+    border: 0 !important;
+    float: left;
+    height: 26px;
+    width: 17px;
+    background-image: url(text-left.gif);
+    background-repeat: no-repeat;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.dsFilterTextRight {
+    border: 0 !important;
+    float: left;
+    height: 26px;
+    width: 16px;
+    background-image: url(text-right.gif);
+    background-repeat: no-repeat;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+/* DIV tag that holds the INPUT textbox */
+div.dsFilterTextdiv {
+    float: left;
+    height: 26px;
+    width: 100px;
+    background: url(text-bg.gif) repeat-x;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+/* The actual textbox inside the DIV tag above */
+input.dsFilterTextboxFF3 {
+    width: 100px;
+    height: 21px;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    margin-top: 2px !important;
+    background: transparent;
+    font-size: 14px !important;
+}
+input.dsFilterTextboxFF {
+    width: 100px;
+    height: 21px;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    margin-top: 2px !important;
+    background: transparent;
+    font-size: 14px !important;
+}
+input.dsFilterTextboxIE {
+    width: 100px;
+    height: 21px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 white !important;
+    background: transparent;
+    font-size: 14px !important;
+    margin-top: 2px !important;
+}
+
+/* OK and Reset buttons */
+.dsFilterButton2 {
+    border: 0 !important; 
+    vertical-align: top !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 3px !important; 
+    margin-right: 3px !important;
+    float: right !important; 
+    /*background: transparent !important;*/
+}
+.dsFilterOK {
+    width: 18px;
+    height: 18px;
+    background-image: url("searching.gif");
+    background-repeat: no-repeat;
+}
+.dsFilterReset {
+    width: 14px;
+    height: 18px;
+    background-image: url("reset.gif");
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+}
